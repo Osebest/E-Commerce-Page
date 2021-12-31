@@ -1,0 +1,28 @@
+body {
+  display: grid;
+  grid: auto-flow min-content / 1fr;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+  grid-gap: 1em;
+  margin: 1em;
+}
+header {
+  grid-area: header;
+}
+nav {
+  grid-area: nav;
+}
+main {
+  grid-area: main;
+}
+footer {
+  grid-area: footer;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
