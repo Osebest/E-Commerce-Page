@@ -290,13 +290,10 @@ footer li:nth-child(1){
 }
 .firstList{
   display: flex;
+  flex-wrap: wrap;
   margin-left: 0;
   padding-left: 0;
-}
-.secondList{
-  display: flex;
-  margin-left: 0;
-  padding-left: 0;
+  justify-content: space-evenly;
 }
 .foot{
   display: flex;
