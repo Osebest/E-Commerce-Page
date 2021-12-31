@@ -127,6 +127,9 @@ main {
   margin-bottom: 0;
   margin-top: 0;
 }
+.image1{
+  display: none;
+}
 .pricing{
   display: flex;
   justify-content: space-around;
