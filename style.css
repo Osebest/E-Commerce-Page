@@ -79,7 +79,7 @@ nav {
 nav li {
   list-style: none;
   padding: 8px 0;
-  color: white;
+  color: black;
 }
 nav li:hover{
   color: #F9CF00;
