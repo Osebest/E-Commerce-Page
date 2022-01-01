@@ -3,7 +3,8 @@ html, body {
   height: 100%;
 }
 body {
-  background-color: white;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 header,
 footer,
@@ -14,12 +15,28 @@ main {
 body p {
   line-height: 25px;
 }
+:root {
+  --primary-color: white;
+  --secondary-color: black;
+}
+.dark-theme{
+  --primary-color: rgba(0, 0, 0, .9);
+  --secondary-color: white;
+}
 
 /*Header Styles*/
 header {
   width: 100%;
   margin-bottom: 0;
   margin-top: 1em;
+}
+.imgH img{
+  background-color: white;
+  padding: 10px;
+}
+#icon, #icon1{
+  width: 30px;
+  cursor: pointer;
 }
 .nav {
   display: none;
@@ -53,7 +70,6 @@ header {
 #hamburgerBtn {
   margin: auto 0;
   cursor: pointer;
-  margin-top: 0;
   position: relative;
 }
 #hamburgerBtn div{
@@ -134,6 +150,7 @@ main {
 }
 .image1{
   display: none;
+  margin-right: 2em;
 }
 .pricing{
   display: flex;
@@ -162,6 +179,7 @@ main {
   height: min-content;
   padding: 10px 15px;
   margin: 0 10px 20px 10px;
+  background-color: rgba(255, 255, 255, .1);
 } 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -169,6 +187,7 @@ main {
 .card img{
   margin: -8px;
   padding: 0;
+  background-color: white;
 }
 
 /*Section 3 Styles*/
@@ -205,6 +224,7 @@ main {
   display: grid;
   justify-items: center;
   margin-bottom: 10px;
+  color: black;
 }
 .section4 .card {
   background-color: white;
@@ -228,6 +248,7 @@ main {
   justify-items: center;
   text-align: center;
   padding: 10px;
+  color: black;
 }
 .section6 h1{
   margin-bottom: 0;
@@ -260,6 +281,7 @@ main {
   background-image: url('./images/yellow-background.png');
   margin: 1em;
   padding: 1em;
+  color: black;
 }
 .phone {
   display: none;
