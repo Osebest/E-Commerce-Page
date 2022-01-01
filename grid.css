@@ -64,6 +64,9 @@ header{
   .section1{
     display: flex;
   }
+  .main h1{
+    font-size: x-large;
+  }
   .section1 a{
     margin-left: 2.5em;
   }
@@ -156,3 +159,19 @@ header{
 
 }
 
+@media only screen and (min-width: 1024px) {
+  .main h1{
+    font-size: xx-large;
+    margin-left: 0%;
+  }
+  .main {
+    margin-top: 10px;
+  }
+  .main p{
+    width: 60%;
+    margin: 15px 0;
+  }
+  .pricing{
+    margin-top: 40px;
+  }
+}
