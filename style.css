@@ -43,6 +43,10 @@ header {
   background-color: #F9CF00;
   padding: 1em 1.5em;
 }
+.button a{
+  text-decoration: none;
+  color: black;
+}
 .button:hover {
   background-color: darkorange;
 }
@@ -136,7 +140,7 @@ main {
   justify-content: space-around;
   align-items: center;
 }
-.section1 a{
+.pricing>a{
   text-decoration: none;
   color: #F9CF00;
 }
