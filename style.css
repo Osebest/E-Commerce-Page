@@ -30,6 +30,7 @@ header {
 .nav ul {
   display: flex;
   justify-content: space-between;
+  padding: 0 20px;
 }
 .nav li {
   list-style: none;
@@ -126,6 +127,9 @@ main {
   height: min-content;
   margin-bottom: 0;
   margin-top: 0;
+}
+.image1{
+  display: none;
 }
 .pricing{
   display: flex;
@@ -290,13 +294,10 @@ footer li:nth-child(1){
 }
 .firstList{
   display: flex;
+  flex-wrap: wrap;
   margin-left: 0;
   padding-left: 0;
-}
-.secondList{
-  display: flex;
-  margin-left: 0;
-  padding-left: 0;
+  justify-content: space-evenly;
 }
 .foot{
   display: flex;
