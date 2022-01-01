@@ -30,6 +30,7 @@ header {
 .nav ul {
   display: flex;
   justify-content: space-between;
+  padding: 0 20px;
 }
 .nav li {
   list-style: none;
