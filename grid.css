@@ -64,6 +64,9 @@ header{
   .section1{
     display: flex;
   }
+  .main h1{
+    font-size: x-large;
+  }
   .section1 a{
     margin-left: 2.5em;
   }
