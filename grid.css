@@ -140,7 +140,6 @@ header{
   }
   .phone {
     display: block;
-    align-self: end;
     position: absolute;
     right: 40px;
     bottom: 0;
@@ -160,6 +159,19 @@ header{
 }
 
 @media only screen and (min-width: 1024px) {
+  .nav li {
+    font-size: larger;
+    font-weight: bold;
+  }
+  .button{
+    padding: 1.1em 2.3em;
+    font-weight: bold;
+    font-size: large;
+  }
+
+  .section1{
+    margin-bottom: 3em;
+  }
   .main h1{
     font-size: xx-large;
     margin-left: 0%;
@@ -168,10 +180,170 @@ header{
     margin-top: 10px;
   }
   .main p{
-    width: 60%;
+    width: 50%;
     margin: 15px 0;
+    font-size: larger;
   }
   .pricing{
     margin-top: 40px;
+  }
+
+  .section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5em;
+  }
+  .why p{
+    width: 90%;
+  }
+  .why h1{
+    font-size: xx-large;
+    margin-top: 0%;
+  }
+  .card1{
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .section3{
+    grid-gap: 4em;
+  }
+  .section3 h1{
+    font-size: xx-large;
+  }
+  .section3 p{
+    width: 80%;
+  }
+  .section3 button{
+    margin-top: 10px;
+  }
+  .delivery{
+    position: relative;
+  }
+  .second{
+    position: absolute;
+    right: -120px;
+    top: 150px;
+  }
+  .second img{
+    width: 80%;
+    height: 80%;
+  }
+  
+  .section4 {
+    margin: 40px 0;
+    padding-bottom: 40px;
+  }
+  .section4 h1{
+    font-size: xx-large;
+  }
+  .section4>p{
+    text-align: center;
+  }
+  .source{
+    margin: 30px 10px;
+    display: grid;
+    grid-auto-flow: column;
+  }
+
+  .section5 {
+    grid-gap: 5em;
+    margin-left: 3em;
+  }
+  .section5 h1{
+    font-size: xx-large;
+    padding-bottom: 10px;
+  }
+  .section5 p{
+    padding: 15px 0;
+    width: 80%;
+  }
+  .arrow{
+    width: 80%;
+  }
+
+  .section6 h1{
+    font-size: xx-large;
+    margin-bottom: 20px;
+  }
+  .section6 p{
+    width: 80%;
+  }
+  .courier {
+    padding: 0;
+    border-radius: 60px;
+    margin: 40px 0;
+  }
+  .courier button{
+    padding: 1.5em 5em;
+    border-radius: 60px;
+    font-size: large;
+    font-weight: bold;
+  }
+  .logos img {
+    height: 130px;
+    width: 130px;
+  }
+  .logos{
+    justify-content: space-evenly;
+  }
+  footer{
+    margin: 50px 15px;
+    display: grid;
+    grid-auto-flow: column;
+    grid: auo-flow min-content / 1fr 2fr;
+  }
+  .foot{
+    align-items: flex-start;
+  }
+  .foot p{
+    width: 90%;
+    margin-left: 0%;
+  }
+  .firstList{
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 2em;
+  }
+  .firstList li{
+    margin-bottom: 10px;
+  }
+
+}
+@media only screen and (min-width: 900px){
+  .section7 {
+    padding: 3.5em 4.5em;
+  }
+  .phone {
+    right: 60px;
+  }
+  .phone img{
+    width: 290px;
+    height: 400px;
+  }
+  .wait1{
+    width: 70%;
+  }
+  .wait1 h1{
+    padding-bottom: 10px;
+    font-size: xx-large;
+  }
+  .wait1 p{
+    width: 80%;
+  }
+  .email{
+    width: 75%;
+    margin-top: 30px;
+  }
+  .section7 button {
+    padding: 1.1em 2.5em;
+  }
+
+}
+
+@media only screen and (min-width: 1200px){
+  .source{
+    grid-gap: 3em;
   }
 }
