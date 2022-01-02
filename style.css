@@ -217,17 +217,16 @@ main {
 
 /*Section 4 Styles*/
 .section4 {
-  background-color: #fafafa;
+  background-color: rgba(150, 150, 150, .1);
   border-radius: 10px;
   margin: 0;
   padding: 10px;
   display: grid;
   justify-items: center;
   margin-bottom: 10px;
-  color: black;
 }
 .section4 .card {
-  background-color: white;
+  background-color: rgba(255, 255, 255, .3);
 }
 .section4 h1 {
   text-align: center;
@@ -243,12 +242,11 @@ main {
 
 /*Section 6 Styles*/
 .section6 {
-  background-image: url('./images/map-background.png');
+  background-image: url('./images/map-background1.png');
   display: grid;
   justify-items: center;
   text-align: center;
   padding: 10px;
-  color: black;
 }
 .section6 h1{
   margin-bottom: 0;
